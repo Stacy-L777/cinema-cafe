@@ -1,0 +1,239 @@
+
+
+body {
+    margin: 0;
+    padding: 0 56px;
+    background: #121212;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+.nav-item {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 16px;
+	
+	margin-right: 25px;
+	
+	transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+	color: #A168D5;
+}
+
+.button {
+	background-color: #A168D5;
+	color: #121212;
+	text-decoration: none;
+	padding: 8px 25px;
+	font-weight: 650;
+	
+	border-radius: 8px;
+	margin-left: 350px;
+	padding: 10px 28px;
+	
+	transition: background-color 0.2s linear;
+}
+.button:hover {
+	background-color: #7B38B8;	
+}
+
+/*здесь остановилась*/
+
+.header-title {
+	margin-top: 50px;
+	margin-right: 340px;
+}
+
+.header-title h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 750;
+}
+
+.header-title p {
+	color: gray;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+.picture img{
+	padding-top: 150px;
+    border-radius: 30px;
+}
+
+
+/*.picture img {
+	opacity: 1;
+}
+
+.picture img:hover {
+	opacity: 0.7;
+}*/
+
+.header-down {
+	display: flex;
+	align-items: center;
+}
+
+.form {
+  margin-top: 20px;
+  width: 250px; /* можно подстроить под дизайн */
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* расстояние между полями */
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.header-button {
+  display: block;       /* кнопка на отдельной строке */
+  width: 100%;          /* та же ширина, что и поля */
+  text-align: center;   /* текст по центру */
+  background-color: #A168D5;
+  color: #121212;
+  text-decoration: none;
+  font-weight: 650;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 15px 0;
+  transition: background-color 0.2s linear;
+}
+
+.header-button:hover {
+  background-color: #7B38B8;  
+}
+
+
+/* START VIOLET BLOCK*/
+.violet-block {
+	margin-left: -56px;   /* компенсируем padding body */
+	margin-right: -56px;
+	padding: 80px 56px;   /* внутренний отступ контента совпадает с остальным сайтом */
+	background-color: #A168D5;
+	/*display: flex;
+	align-items: center;-->*/
+}
+
+
+.top-title {
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.top-text {
+	color: white;
+	font-size: 25px;
+	font-weight: 650;
+}
+
+.subscribe {
+	background-color: white /*#A168D5*/;
+	color: #121212;
+	text-decoration: none;
+	border-radius: 8px;
+    padding: 10px 28px;
+	font-weight: 650;
+}
+
+.block-holder {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*END VIOLET BLOCK -->*/
+
+.footer {
+	display: flex;
+	align-items: center;
+}
+
+.footer-title {
+	color: gray;
+	font-size: 25px;
+	font-weight: 550;
+	margin-left: 140px;
+	margin-right: 56px;
+}
+
+.footer-pic {
+	margin-left: 56px;
+}
+
+.cafe-container {
+	font-family: "Open Sans", sans-serif;
+}
+
+.new {
+    padding-top: 30px;
+    display: block;
+}
+
+.new-title {
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.new-cover {
+	padding-top: 30px;
+	display: flex;
+}
+
+.card {
+	margin-right: 20px;
+}
+
+.new-text {
+	align-items: center;
+}
+#NEW {
+	margin-top: -35px;
+}
+
+.tit {
+	color: #fff;
+	font-weight: 550;
+	font-size: 20px;
+
+}
+
+.sm {
+	display: flex;
+	color: #fff;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.price {
+	margin-left: 240px;
+	margin-top: 20px;
+	color: violet;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.card img {
+	opacity: 1;
+}
+
+.card img:hover {
+	opacity: 0.7;
+}
